@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo - Cláudio Rapôso</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        @media print {
+            @page {
+                size: A4; /* Define o tamanho da página para A4 */
+                margin: 20mm; /* Margens do documento */
+            }
+            body {
+                margin: 0; /* Remove margens adicionais na impressão */
+            }
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2; /* Cor de fundo suave */
+            margin: 0; /* Remove margens do corpo */
+        }
+
+        .container {
+            width: 210mm; /* Largura do A4 */
+            min-height: 297mm; /* Altura do A4 */
+            background-color: white; /* Fundo branco para o currículo */
+            padding: 20mm; /* Padding para o conteúdo */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            margin: auto; /* Centraliza o currículo */
+        }
+
+        h1, h2 {
+            color: #333; /* Cor do texto dos títulos */
+        }
+
+        a {
+            color: #2196F3; /* Cor dos links */
+            text-decoration: none; /* Remove sublinhado dos links */
+        }
+
+        a:hover {
+            text-decoration: underline; /* Sublinha o link ao passar o mouse */
+        }
+
+        /* Aumenta a legibilidade do texto */
+        p, li {
+            line-height: 1.5; /* Aumenta o espaçamento entre linhas */
+        }
+    </style>
+</head>
+<body>
+    <div class="container w3-card-4">
+        <header>
+            <h1 class="w3-center">Cláudio Rapôso</h1>
+        </header>
+        <main>
+            <section id="perfil-profissional">
+                <h2>Perfil Profisional</h2>
+                <p>Sou desenvolvedor de software com 2 anos de experiência que trabalho com frontend</p>
+            </section>
+            <section id="experiencia-profissional">
+                <h2>Experiência Profisional</h2>
+                <article>
+                    <h3>Desenvolvedor frontend - Moveedu S/A</h3>
+                    <p>02/2022 - Atualmente</p>
+                    <ul>
+                        <li>Criar telas frontend</li>
+                    </ul>
+                </article>
+            </section>
+            <section id="educacao">
+                <h2>Educação</h2>
+                <article>
+                    <h3>Análise e Desenvolvimento de Sistemas - Moveedu S/A</h3>
+                    <p>02/2020 - 02/2022</p>
+                </article>
+                <article>
+                    <h3>Administração - Moveedu S/A</h3>
+                    <p>02/2020 - 02/2022</p>
+                </article>
+            </section>
+            <section id="habilidades">
+                <h2>habilidades</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>PHP</li>
+                    <li>MySql</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
